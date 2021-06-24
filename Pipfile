@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+django = "==3.1.12"
+# django-stubs = { git = "https://github.com/typeddjango/django-stubs.git", ref = "master" }
+django-stubs = "*"
+pytz = "*"
+
+[dev-packages]
+mypy = "*"
+
+[requires]
+python_version = "3.7"
